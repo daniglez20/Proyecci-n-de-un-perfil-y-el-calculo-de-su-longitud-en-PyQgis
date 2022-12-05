@@ -1,8 +1,4 @@
-![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.003.png)
-![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.004.png)
-
 ![](https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_de_la_Universidad_de_Colima.svg)
-
 # Proyección de un perfil y el cálculo de su longitud en PyQgis
 *Projecting a profile and calculating its length in PyQgis*
 
@@ -42,8 +38,6 @@ Procedimiento:
 
 - Estación Completa: son los puntos situados cada 20 metros completos, ejemplo: 0+020, 0+100, 0+240, 0+980, 1+000, 1+120, etc.
 - Subestación: son puntos situados en la línea central que no están a 20 metros completos, ejemplo: 0+95.40, 0+985.40, 1+125.30, 1+242.6, etc.
-
-
 
 Las elevaciones con que se construyen los perfiles se obtienen de las lecturas del estadal tomadas en cada estación y subestación.
 
@@ -136,20 +130,9 @@ Figura #5. Logo de Python.
 
 Para este programa se realiza un análisis de las diferentes librerías de PyQgis, la cual es una consola de Python en el software de Qgis. Primeramente se analiza la capa del vector, la cual fue resultado de los datos de una práctica de campo llevada a cabo en la Facultad de Ingeniería Civil en el camino del estacionamiento. Una vez obtenido el shapefile del vector, se realiza un programa el cual permite abrir una capa de archivo “.shp” y de esta misma calcula la longitud que esta tiene.
 
+![](https://drive.google.com/uc?export=view&id=1eqc-NdjDxxPpdMTsKYIfTFhZyB3WD5hO)
 
-
-![Interfaz de usuario gráfica, Texto, Aplicación
-
-Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.014.png)
-
-
-
-![Interfaz de usuario gráfica, Texto, Aplicación, Chat o mensaje de texto
-
-Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.015.png)
-
-
-
+![](https://drive.google.com/uc?export=view&id=1kO_om3O3_udsHh_cYBijgFE1m3zMEThw)
 
 
 ## **4.Resultados**
