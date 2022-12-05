@@ -24,6 +24,7 @@ Programar significa tener la habilidad de crear y codificar un algoritmo para qu
 **Nivelación de perfil**
 
 ![](http://4.bp.blogspot.com/_oKSDCrhgRhk/TE9KOhus3NI/AAAAAAAAADY/kanzAg_9XkY/s1600/nivel_-_desnivel.jpg)
+
 Figura #1. Gráfico de una nivelación de perfil. Fuente: Google
 
 Es la operación, usualmente por nivelación directa, de determinar las elevaciones de puntos a cortos intervalos a lo largo de una línea localizada tal como el centro para una carretera o tubería. Es también usada para determinar elevaciones de cortes o secciones, contornos y gradientes.
@@ -49,7 +50,8 @@ Las elevaciones con que se construyen los perfiles se obtienen de las lecturas d
 
 Ejemplo de registro:
 
-![](https://drive.google.com/uc?export=view&id=1-JmtzWf3QFOnUFx-aOV5DmBl_cmcfU7v)   
+![](https://drive.google.com/uc?export=view&id=1-JmtzWf3QFOnUFx-aOV5DmBl_cmcfU7v) 
+
 Figura #2. Ejemplo de registro de una nivelación de perfil. Fuente: M.C. Rosendo Sánchez
 
 ## **2.1. Metodología** 
