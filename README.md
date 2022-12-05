@@ -51,19 +51,7 @@ Las elevaciones con que se construyen los perfiles se obtienen de las lecturas d
 
 Ejemplo de registro:
 
-![Tabla
-
-Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.007.jpeg)                 
-
-
-
-
-
-
-
-
-
-
+![](https://drive.google.com/uc?export=view&id=1-JmtzWf3QFOnUFx-aOV5DmBl_cmcfU7v)   
 Figura #2. Ejemplo de registro de una nivelación de perfil. Fuente: M.C. Rosendo Sánchez
 
 ![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.008.png)
