@@ -1,0 +1,173 @@
+# Proyección de un perfil y el cálculo de su longitud en PyQgis
+*Projecting a profile and calculating its length in PyQgis*
+
+**Daniela Nohemí González Preciado (1), Roberto Alejandro Navarro Obispo (2), Vanessa Belén Martínez Hernández (3)**
+
+(1) Colima - Coquimatlán Kilómetro 9, Jardines del Llano, 28400 Coquimatlán, Col., 20186496, <dgonzalez17@ucol.mx>. (2) 20172919, <rnavarro0@ucol.mx>. (3) 20177585, <vmartinez6@ucol.mx> 
+##
+## **1.Introducción.** 
+La nivelación de perfil tiene como objetivo determinar las cotas o elevaciones de puntos con distancias conocidas sobre un trazo para obtener el perfil del trazo.  
+
+Cuando se requiere del estudio de una vía de comunicación terrestre ya sea de camino, introducción de agua potable, un sistema de alcantarillado, un canal, entre otros; se utiliza este procedimiento el cual se encarga de determinar las elevaciones, cotas y alturas o intervalos cortos sobre una línea fija generalmente sobre el centro de un eje de la vía que se presenta alojar.  
+
+Por lo general esos intervalos son en forma longitudinal a cada 20m y cambio de pendientes importantes a estos intervalos se les llama estaciones complejas o estaciones cerradas a los oros puntos se les conoce como estaciones intermedias, en cada estación se clava una estaca a la cual tiene su respectivo kilometraje.  
+
+Programar significa tener la habilidad de crear y codificar un algoritmo para que pueda ser ejecutado por una computadora. Es decir, se desarrollan un conjunto de instrucciones que le indican a la computadora cómo hacer ciertas tareas. En la actualidad, la programación es catalogada como un lenguaje tecnológico fundamental. ¿Por qué es tan importante aprender programación hoy en día? el constante progreso de la tecnología aplicado a cualquier ámbito profesional, el desarrollo de capacidades resolutivas, la amplia oferta de trabajo que ofrece la industria IT.
+
+## **2.Desarrollo**
+Figura #1. Gráfico de una nivelación de perfil. Fuente: Google
+
+## ![](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.001.png)**Nivelación de perfil**
+Es la operación, usualmente por nivelación directa, de determinar las elevaciones de puntos a cortos intervalos a lo largo de una línea localizada tal como el centro para una carretera o tubería. Es también usada para determinar elevaciones de cortes o secciones, contornos y gradientes.
+
+Son colocadas estacas a intervalos regulares sobre esta línea, usualmente la línea central. El intervalo escogido es uno conveniente de acuerdo con la longitud del perfil, tal como 100, 50, 25 mts. Los puntos al intervalo escogido, tal como por ej.
+
+100m son llamados estación completa y todos los otros puntos, estaciones “más”, (+). Por ej. Una 
+
+estaca colocada a 1600 m del punto de inicio es numerada “16+00” y una colocada a 1,625,” 16+25, cuando se usa intervalos de 100
+
+m. En caso de usar intervalo de 1000 m la numeración sería	1+600 y 1+625, correspondientemente. Las elevaciones por medio de las cuales el perfil se construyen son levantadas tomando lectura de nivelación sobre las estacas o en puntos intermedios donde ocurren cambios de pendientes.
+
+![Gráfico, Gráfico de líneas
+
+Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.002.jpeg)
+
+Debe tenerse cuidado en la escogencia de los puntos de cambio ya que éstos son los puntos de enlace o de transferencia de cotas. Deben ser puntos firmes en el terreno, o sobre estacas de madera, vigas de puentes, etc.
+
+Siendo los puntos de cambio puntos de transferencia de cotas, en ellos siempre será necesario tomar una lectura adelante desde una estación y una lectura atrás desde la estación siguiente.
+
+Procedimiento:
+
+- Se colocan desde el principio de la línea, una serie de puntos llamados estaciones completas, los cuales van a estar una de la otra a una distancia de 20m (por lo general, ya que puede ser otra 10m, 50m etc.), aunque esta distancia puede variar, además de las estaciones completas, también se ubican los puntos donde hay cambios de dirección, cambios de pendiente, etc. llamados subestaciones.
+
+- Estación Completa: son los puntos situados cada 20 metros completos, ejemplo: 0+020, 0+100, 0+240, 0+980, 1+000, 1+120, etc.
+- Subestación: son puntos situados en la línea central que no están a 20 metros completos, ejemplo: 0+95.40, 0+985.40, 1+125.30, 1+242.6, etc.
+
+
+
+Las elevaciones con que se construyen los perfiles se obtienen de las lecturas del estadal tomadas en cada estación y subestación.
+
+Ejemplo de registro:
+
+![Tabla
+
+Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.003.jpeg)                 
+
+
+
+
+
+
+
+
+
+
+Figura #2. Ejemplo de registro de una nivelación de perfil.. Fuente: M.C. Rosendo Sánchez
+
+![](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.004.png)
+## **2.1. Metodología** 
+#
+Comprobación ida y vuelta
+
+Esta comprobación se realiza repitiendo la nivelación en sentido contrario, ya sea siguiendo la misma ruta u otra distinta. Este procedimiento tiene la ventaja de que, al repetir la nivelación en dirección contraria, se pueden eliminar ciertos errores de acumulación
+
+Procedimiento:
+
+Es igual a la simple con la única diferencia que el aparato se plantara más de una vez y por consiguiente la altura de instrumento será diferente cada vez que se cambie. Este tipo de nivelación se realiza cuando los terrenos son bastantes accidentados y exceden visuales de 200 m., en otras palabras, la nivelación compuesta es una serie de nivelaciones simples amarradas entre sí por puntos de cambio o de liga del aparato.  
+
+|**P.V.**|**+**|**A.I.**|**-**|**COTA**|
+| - | - | - | - | - |
+|**BN1**|0.274|355.254| |354.98|
+|**0+000**|0.595|353.88|1.969|353.285|
+|**0+020**| | |2.683|351.197|
+|**0+040**| | |3.88|350|
+|**0+053**| | |4.415|349.465|
+|**PL1**|1.015|351.187|3.708|350.172|
+|**0+060**| | |1.588|349.599|
+|**0+080**| | |1.105|350.082|
+|**0+100**| | |0.648|350.539|
+|**0+120**| | |0.161|351.026|
+|**PL2**|2.888|353.986|0.089|351.098|
+|**0+140**| | |2.425|351.561|
+|**0+156**| | |1.945|352.041|
+|**0+160**| | |1.514|352.472|
+|**0+180**| | |1.023|352.963|
+|**PL3**|3.816|357.64|0.162|353.824|
+|**0+200**| | |3.214|354.426|
+|**0+220**| | |0.625|357.015|
+|**PL4**|3.772|360.787|0.625|357.015|
+|**0+240**| | |3.003|357.784|
+|**0+260**| | |2.257|358.53|
+|**0+269**| | |1.914|358.873|
+|**0+280**| | |1.687|359.1|
+|**0+300**| | |1.347|359.44|
+|**0+320**| | |1.038|359.749|
+|**0+340**| | |0.709|360.078|
+|**0+349**| | |0.602|360.185|
+|**BN2**| | |0.383|360.404|
+|**Comprobación de Vuelta**|
+|**BN2**|0.349|360.753| |360.404|
+|**PL4**|0.118|357.132|3.739|357.014|
+|**PL3**|0.231|354.053|3.31|353.822|
+|**PL2**|0.01|351.108|2.955|351.098|
+|**PL1**|3.485|353.646|0.947|350.161|
+|**PL0**|2.229|355.506|0.369|353.277|
+|**BN1**| | |0.532|354.974|
+Comprobación Ida y Vuelta: se efectúa la nivelación en un sentido (nivelación de ida), trabajando con el método del punto medio, concluida esta, se inicia la nivelación de regreso, pudiendo utilizar los mismos PL’s que se usaron en el primer recorrido.
+
+Figura #3. Ejemplo de registro de la nivelación por comprobación de ida y vuelta.
+
+
+![](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.005.png)EL trabajo de campo se realizó en el campus Coquimatlán de la Universidad de Colima, se necesitó de importantes instrumentos topográficos, así como la adecuada indumentaria para su realización. Se dio principio con el reconocimiento del terreno del cual se tenía que obtener el perfil, consecutivamente en la parte sur del campus en donde se encuentra un estacionamiento, se indicó un banco de nivel (BN) teniendo una cota arbitraria.
+
+
+**Qgis**
+
+QGIS es un Sistema de Información Geográfica (SIG) de Código Abierto licenciado bajo GNU - General Public License . QGIS es un proyecto oficial de Open Source Geospatial Foundation (OSGeo). Corre sobre Linux, Unix, Mac OSX, Windows y Android y soporta numerosos formatos y funcionalidades de datos vector, datos ráster y bases de datos.
+
+QGIS funciona en diferentes sistemas operativos: Linux, Windows, Mac y Android. Además, se puede instalar en una llave USB, lo que permite transportar QGIS de un ordenador a otro sin tener que instalarlo.
+
+Uno de sus puntos fuertes es la interoperabilidad y te permitirte trabajar con una multitud de datos vectoriales y raster. Por citar algunos:
+
+- Formato Shapefile (.shp formato nativo de QGIS) desarrollado por ESRI ArcGIS.
+- Formatos MapInfo (.tab, mif-mid).
+- Formato KML de Google Earth.
+- Formatos DAO (Autocad DXF).
+
+![QGIS — Communauté de la Fabrique des Mobilites](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.006.png)
+
+
+
+Figura #4. Logo de Qgis.
+
+![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.007.png)
+
+
+
+
+**Python**
+
+Python es un lenguaje de programación orientado a objetos de alto nivel y fácil de interpretar con sintaxis fácil de leer. Ideal para prototipos y tareas ad hoc, Python tiene un amplio uso en computación científica, desarrollo web y automatización. Como lenguaje de programación para principiantes y de uso general, Python es compatible con muchos de los principales científicos de computadoras y desarrolladores de aplicaciones en todo el mundo.
+
+
+
+##
+## ![Python Programación - 14102 - Otras clases o cursos - Ciudad Autónoma ...](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.008.jpeg)
+##
+##
+##
+##
+## **3.Manejo de datos**
+
+Para este programa se realiza un análisis de las diferentes librerías de PyQgis, la cual es una consola de Python en el software de Qgis. Primeramente se analiza la capa del vector, la cual fue resultado de los datos de una práctica de campo llevada a cabo en la Facultad de Ingeniería Civil en el camino del estacionamiento. Una vez obtenido el shapefile del vector, se realiza un programa el cual permite abrir una capa de archivo “.shp” y de esta misma calcula la longitud que esta tiene.
+
+![Interfaz de usuario gráfica, Texto, Aplicación
+
+Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.009.png) 
+
+Figura #5. Logo de Python.
+
+
+![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.010.png)![Interfaz de usuario gráfica, Texto, Aplicación, Chat o mensaje de texto
+
+Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.011.png)
