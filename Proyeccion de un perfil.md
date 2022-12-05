@@ -1,3 +1,4 @@
+![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.003.png)![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.004.png)**
 # Proyección de un perfil y el cálculo de su longitud en PyQgis
 *Projecting a profile and calculating its length in PyQgis*
 
@@ -17,7 +18,7 @@ Programar significa tener la habilidad de crear y codificar un algoritmo para qu
 ## **2.Desarrollo**
 Figura #1. Gráfico de una nivelación de perfil. Fuente: Google
 
-## ![](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.001.png)**Nivelación de perfil**
+## ![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.005.png)**Nivelación de perfil**
 Es la operación, usualmente por nivelación directa, de determinar las elevaciones de puntos a cortos intervalos a lo largo de una línea localizada tal como el centro para una carretera o tubería. Es también usada para determinar elevaciones de cortes o secciones, contornos y gradientes.
 
 Son colocadas estacas a intervalos regulares sobre esta línea, usualmente la línea central. El intervalo escogido es uno conveniente de acuerdo con la longitud del perfil, tal como 100, 50, 25 mts. Los puntos al intervalo escogido, tal como por ej.
@@ -30,7 +31,7 @@ m. En caso de usar intervalo de 1000 m la numeración sería	1+600 y 1+625, corr
 
 ![Gráfico, Gráfico de líneas
 
-Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.002.jpeg)
+Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.006.jpeg)
 
 Debe tenerse cuidado en la escogencia de los puntos de cambio ya que éstos son los puntos de enlace o de transferencia de cotas. Deben ser puntos firmes en el terreno, o sobre estacas de madera, vigas de puentes, etc.
 
@@ -51,7 +52,7 @@ Ejemplo de registro:
 
 ![Tabla
 
-Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.003.jpeg)                 
+Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.007.jpeg)                 
 
 
 
@@ -62,9 +63,9 @@ Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a20
 
 
 
-Figura #2. Ejemplo de registro de una nivelación de perfil.. Fuente: M.C. Rosendo Sánchez
+Figura #2. Ejemplo de registro de una nivelación de perfil. Fuente: M.C. Rosendo Sánchez
 
-![](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.004.png)
+![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.008.png)
 ## **2.1. Metodología** 
 #
 Comprobación ida y vuelta
@@ -113,12 +114,13 @@ Es igual a la simple con la única diferencia que el aparato se plantara más de
 |**PL1**|3.485|353.646|0.947|350.161|
 |**PL0**|2.229|355.506|0.369|353.277|
 |**BN1**| | |0.532|354.974|
+
 Comprobación Ida y Vuelta: se efectúa la nivelación en un sentido (nivelación de ida), trabajando con el método del punto medio, concluida esta, se inicia la nivelación de regreso, pudiendo utilizar los mismos PL’s que se usaron en el primer recorrido.
 
 Figura #3. Ejemplo de registro de la nivelación por comprobación de ida y vuelta.
 
 
-![](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.005.png)EL trabajo de campo se realizó en el campus Coquimatlán de la Universidad de Colima, se necesitó de importantes instrumentos topográficos, así como la adecuada indumentaria para su realización. Se dio principio con el reconocimiento del terreno del cual se tenía que obtener el perfil, consecutivamente en la parte sur del campus en donde se encuentra un estacionamiento, se indicó un banco de nivel (BN) teniendo una cota arbitraria.
+![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.009.png)EL trabajo de campo se realizó en el campus Coquimatlán de la Universidad de Colima, se necesitó de importantes instrumentos topográficos, así como la adecuada indumentaria para su realización. Se dio principio con el reconocimiento del terreno del cual se tenía que obtener el perfil, consecutivamente en la parte sur del campus en donde se encuentra un estacionamiento, se indicó un banco de nivel (BN) teniendo una cota arbitraria.
 
 
 **Qgis**
@@ -134,13 +136,13 @@ Uno de sus puntos fuertes es la interoperabilidad y te permitirte trabajar con u
 - Formato KML de Google Earth.
 - Formatos DAO (Autocad DXF).
 
-![QGIS — Communauté de la Fabrique des Mobilites](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.006.png)
+![QGIS — Communauté de la Fabrique des Mobilites](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.010.png)
 
 
 
 Figura #4. Logo de Qgis.
 
-![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.007.png)
+![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.011.png)
 
 
 
@@ -152,22 +154,84 @@ Python es un lenguaje de programación orientado a objetos de alto nivel y fáci
 
 
 ##
-## ![Python Programación - 14102 - Otras clases o cursos - Ciudad Autónoma ...](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.008.jpeg)
+## ![Python Programación - 14102 - Otras clases o cursos - Ciudad Autónoma ...](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.012.jpeg)
 ##
 ##
+Figura #5. Logo de Python.
+
+## ![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.013.png)
 ##
 ##
 ## **3.Manejo de datos**
 
 Para este programa se realiza un análisis de las diferentes librerías de PyQgis, la cual es una consola de Python en el software de Qgis. Primeramente se analiza la capa del vector, la cual fue resultado de los datos de una práctica de campo llevada a cabo en la Facultad de Ingeniería Civil en el camino del estacionamiento. Una vez obtenido el shapefile del vector, se realiza un programa el cual permite abrir una capa de archivo “.shp” y de esta misma calcula la longitud que esta tiene.
 
+
+
 ![Interfaz de usuario gráfica, Texto, Aplicación
 
-Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.009.png) 
-
-Figura #5. Logo de Python.
+Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.014.png)
 
 
-![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.010.png)![Interfaz de usuario gráfica, Texto, Aplicación, Chat o mensaje de texto
 
-Descripción generada automáticamente](Aspose.Words.5663f743-3cb3-4714-a6f9-a201f3570b74.011.png)
+![Interfaz de usuario gráfica, Texto, Aplicación, Chat o mensaje de texto
+
+Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.015.png)
+
+
+
+
+
+## **4.Resultados**
+
+from PyQt5.QtCore import \*
+
+from PyQt5.QtGui import \*
+
+from qgis.core import \*
+
+from qgis.gui import \*
+
+from osgeo import gdal, osr
+
+from PyQt5.QtCore import QVariant
+
+#Vector
+
+perfil = 'C:\\PyQGIS\\Perfil.shp'
+
+perfil = QgsVectorLayer(perfil,'perfil','ogr')
+
+#Raster
+
+colima ='C:\\PyQGIS\\B5.TIF'
+
+fileInfo = QFileInfo(colima)
+
+baseName = fileInfo.baseName()
+
+raster = QgsRasterLayer(colima, baseName)
+
+QgsProject.instance().addMapLayer(raster)
+
+QgsProject.instance().addMapLayer(perfil)
+
+layer = qgis.utils.iface.activeLayer()
+
+features = layer.selectedFeatures()
+
+for f in features:
+
+`    `geom = f.geometry()
+
+`    `print("Length:", geom.length())
+
+
+
+for field in perfil.fields():
+
+`    `print(field.name(), field.typeName())
+
+## **5.Conclusion**
+
+En relación con todo lo visto durante todo el semestre, se realizó un proyecto en el cual nos basamos en la librería pyqgis, realizando una aplicación de un perfil reflejada en una imagen raster. En está librería observamos que tiene bastante relación dentro de nuestra carrera, pues la aplicación de los diferentes códigos vistos en clases, nos facilitan y agilizan la interacción con la plataforma Qgis, así bien consideramos que aplicación de estos códigos y similares en la rama geografíca es importante conocerlas y aplicarlas.
