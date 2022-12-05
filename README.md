@@ -28,11 +28,9 @@ Figura #1. Gráfico de una nivelación de perfil. Fuente: Google
 
 Es la operación, usualmente por nivelación directa, de determinar las elevaciones de puntos a cortos intervalos a lo largo de una línea localizada tal como el centro para una carretera o tubería. Es también usada para determinar elevaciones de cortes o secciones, contornos y gradientes.
 
-Son colocadas estacas a intervalos regulares sobre esta línea, usualmente la línea central. El intervalo escogido es uno conveniente de acuerdo con la longitud del perfil, tal como 100, 50, 25 mts. Los puntos al intervalo escogido, tal como por ej.
+Son colocadas estacas a intervalos regulares sobre esta línea, usualmente la línea central. El intervalo escogido es uno conveniente de acuerdo con la longitud del perfil, tal como 100, 50, 25 mts. Los puntos al intervalo escogido, tal como por ejemplo 100 m son llamados estación completa y todos los otros puntos, estaciones “más”, (+). Por ej. Una estaca colocada a 1600 m del punto de inicio es numerada “16+00” y una colocada a 1,625,” 16+25, cuando se usa intervalos de 100 m. En caso de usar intervalo de 1000 m la numeración sería	1+600 y 1+625, correspondientemente. Las elevaciones por medio de las cuales el perfil se construyen son levantadas tomando lectura de nivelación sobre las estacas o en puntos intermedios donde ocurren cambios de pendientes.
 
-100m son llamados estación completa y todos los otros puntos, estaciones “más”, (+). Por ej. Una estaca colocada a 1600 m del punto de inicio es numerada “16+00” y una colocada a 1,625,” 16+25, cuando se usa intervalos de 100 m. En caso de usar intervalo de 1000 m la numeración sería	1+600 y 1+625, correspondientemente. Las elevaciones por medio de las cuales el perfil se construyen son levantadas tomando lectura de nivelación sobre las estacas o en puntos intermedios donde ocurren cambios de pendientes.
-
-![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.006.jpeg)
+![](https://drive.google.com/uc?export=view&id=1WQJfl6Io_q4l9vtbIM_3lDi9A9UG7cr0)
 
 Debe tenerse cuidado en la escogencia de los puntos de cambio ya que éstos son los puntos de enlace o de transferencia de cotas. Deben ser puntos firmes en el terreno, o sobre estacas de madera, vigas de puentes, etc.
 
@@ -54,7 +52,6 @@ Ejemplo de registro:
 ![](https://drive.google.com/uc?export=view&id=1-JmtzWf3QFOnUFx-aOV5DmBl_cmcfU7v)   
 Figura #2. Ejemplo de registro de una nivelación de perfil. Fuente: M.C. Rosendo Sánchez
 
-![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.008.png)
 ## **2.1. Metodología** 
 #
 Comprobación ida y vuelta
@@ -106,10 +103,9 @@ Es igual a la simple con la única diferencia que el aparato se plantara más de
 
 Comprobación Ida y Vuelta: se efectúa la nivelación en un sentido (nivelación de ida), trabajando con el método del punto medio, concluida esta, se inicia la nivelación de regreso, pudiendo utilizar los mismos PL’s que se usaron en el primer recorrido.
 
-Figura #3. Ejemplo de registro de la nivelación por comprobación de ida y vuelta.
+![](https://drive.google.com/uc?export=view&id=14MH49QmR_xI0EOpw1nF_wTxpEqIQ4aNw)
 
-
-![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.009.png)EL trabajo de campo se realizó en el campus Coquimatlán de la Universidad de Colima, se necesitó de importantes instrumentos topográficos, así como la adecuada indumentaria para su realización. Se dio principio con el reconocimiento del terreno del cual se tenía que obtener el perfil, consecutivamente en la parte sur del campus en donde se encuentra un estacionamiento, se indicó un banco de nivel (BN) teniendo una cota arbitraria.
+EL trabajo de campo se realizó en el campus Coquimatlán de la Universidad de Colima, se necesitó de importantes instrumentos topográficos, así como la adecuada indumentaria para su realización. Se dio principio con el reconocimiento del terreno del cual se tenía que obtener el perfil, consecutivamente en la parte sur del campus en donde se encuentra un estacionamiento, se indicó un banco de nivel (BN) teniendo una cota arbitraria.
 
 
 **Qgis**
