@@ -1,4 +1,8 @@
-![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.003.png)![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.004.png)**
+![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.003.png)
+![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.004.png)
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_de_la_Universidad_de_Colima.svg)
+
 # Proyección de un perfil y el cálculo de su longitud en PyQgis
 *Projecting a profile and calculating its length in PyQgis*
 
@@ -16,22 +20,19 @@ Por lo general esos intervalos son en forma longitudinal a cada 20m y cambio de 
 Programar significa tener la habilidad de crear y codificar un algoritmo para que pueda ser ejecutado por una computadora. Es decir, se desarrollan un conjunto de instrucciones que le indican a la computadora cómo hacer ciertas tareas. En la actualidad, la programación es catalogada como un lenguaje tecnológico fundamental. ¿Por qué es tan importante aprender programación hoy en día? el constante progreso de la tecnología aplicado a cualquier ámbito profesional, el desarrollo de capacidades resolutivas, la amplia oferta de trabajo que ofrece la industria IT.
 
 ## **2.Desarrollo**
+
+**Nivelación de perfil**
+
+![](http://4.bp.blogspot.com/_oKSDCrhgRhk/TE9KOhus3NI/AAAAAAAAADY/kanzAg_9XkY/s1600/nivel_-_desnivel.jpg)
 Figura #1. Gráfico de una nivelación de perfil. Fuente: Google
 
-## ![](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.005.png)**Nivelación de perfil**
 Es la operación, usualmente por nivelación directa, de determinar las elevaciones de puntos a cortos intervalos a lo largo de una línea localizada tal como el centro para una carretera o tubería. Es también usada para determinar elevaciones de cortes o secciones, contornos y gradientes.
 
 Son colocadas estacas a intervalos regulares sobre esta línea, usualmente la línea central. El intervalo escogido es uno conveniente de acuerdo con la longitud del perfil, tal como 100, 50, 25 mts. Los puntos al intervalo escogido, tal como por ej.
 
-100m son llamados estación completa y todos los otros puntos, estaciones “más”, (+). Por ej. Una 
+100m son llamados estación completa y todos los otros puntos, estaciones “más”, (+). Por ej. Una estaca colocada a 1600 m del punto de inicio es numerada “16+00” y una colocada a 1,625,” 16+25, cuando se usa intervalos de 100 m. En caso de usar intervalo de 1000 m la numeración sería	1+600 y 1+625, correspondientemente. Las elevaciones por medio de las cuales el perfil se construyen son levantadas tomando lectura de nivelación sobre las estacas o en puntos intermedios donde ocurren cambios de pendientes.
 
-estaca colocada a 1600 m del punto de inicio es numerada “16+00” y una colocada a 1,625,” 16+25, cuando se usa intervalos de 100
-
-m. En caso de usar intervalo de 1000 m la numeración sería	1+600 y 1+625, correspondientemente. Las elevaciones por medio de las cuales el perfil se construyen son levantadas tomando lectura de nivelación sobre las estacas o en puntos intermedios donde ocurren cambios de pendientes.
-
-![Gráfico, Gráfico de líneas
-
-Descripción generada automáticamente](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.006.jpeg)
+![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.006.jpeg)
 
 Debe tenerse cuidado en la escogencia de los puntos de cambio ya que éstos son los puntos de enlace o de transferencia de cotas. Deben ser puntos firmes en el terreno, o sobre estacas de madera, vigas de puentes, etc.
 
@@ -136,32 +137,17 @@ Uno de sus puntos fuertes es la interoperabilidad y te permitirte trabajar con u
 - Formato KML de Google Earth.
 - Formatos DAO (Autocad DXF).
 
-![QGIS — Communauté de la Fabrique des Mobilites](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.010.png)
-
-
-
+![QGIS](https://geomatiqueagricole.ca/wp-content/uploads/2019/01/QGIS_logo_2017.svg_-1024x305.png)
 Figura #4. Logo de Qgis.
-
-![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.011.png)
-
-
-
 
 **Python**
 
 Python es un lenguaje de programación orientado a objetos de alto nivel y fácil de interpretar con sintaxis fácil de leer. Ideal para prototipos y tareas ad hoc, Python tiene un amplio uso en computación científica, desarrollo web y automatización. Como lenguaje de programación para principiantes y de uso general, Python es compatible con muchos de los principales científicos de computadoras y desarrolladores de aplicaciones en todo el mundo.
 
 
-
-##
-## ![Python Programación - 14102 - Otras clases o cursos - Ciudad Autónoma ...](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.012.jpeg)
-##
-##
+![Python Programación - 14102 - Otras clases o cursos - Ciudad Autónoma ...](https://download.logo.wine/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.png)
 Figura #5. Logo de Python.
 
-## ![Figura #4. Logo de Qgis. Fuente: Google](Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.013.png)
-##
-##
 ## **3.Manejo de datos**
 
 Para este programa se realiza un análisis de las diferentes librerías de PyQgis, la cual es una consola de Python en el software de Qgis. Primeramente se analiza la capa del vector, la cual fue resultado de los datos de una práctica de campo llevada a cabo en la Facultad de Ingeniería Civil en el camino del estacionamiento. Una vez obtenido el shapefile del vector, se realiza un programa el cual permite abrir una capa de archivo “.shp” y de esta misma calcula la longitud que esta tiene.
