@@ -19,6 +19,8 @@ Por lo general esos intervalos son en forma longitudinal a cada 20m y cambio de 
 
 Programar significa tener la habilidad de crear y codificar un algoritmo para que pueda ser ejecutado por una computadora. Es decir, se desarrollan un conjunto de instrucciones que le indican a la computadora cómo hacer ciertas tareas. En la actualidad, la programación es catalogada como un lenguaje tecnológico fundamental. ¿Por qué es tan importante aprender programación hoy en día? el constante progreso de la tecnología aplicado a cualquier ámbito profesional, el desarrollo de capacidades resolutivas, la amplia oferta de trabajo que ofrece la industria IT.
 
+Un perfil topográfico es un corte o sección a lo largo de una línea dibujada en un mapa. En otras palabras, es como si se pudiera rebanar una porción de la Tierra y separarla del resto para poder verla de lado a lado; la superficie de esta rebanada sería el perfil topográfico. ¿Cuál es el uso de un perfil topográfico? Un perfil topográfico permite un mejor conocimiento de los Modelos Digitales de Elevaciones (MDE), ya que el análisis de elementos lineales es más sencillo que el análisis de superficies.
+
 ## **2.Desarrollo**
 
 **Nivelación de perfil**
