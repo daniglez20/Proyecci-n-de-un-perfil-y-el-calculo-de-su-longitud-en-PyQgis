@@ -26,3 +26,4 @@ for f in features:
     
 for field in perfil.fields():
     print(field.name(), field.typeName())
+    
