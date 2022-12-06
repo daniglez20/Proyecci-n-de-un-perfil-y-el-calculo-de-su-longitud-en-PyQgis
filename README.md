@@ -1,15 +1,24 @@
-![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.003.png)
-![](img/Aspose.Words.07d8cf39-75e0-4b01-a6c3-d2db387911cc.004.png)
-
 ![](https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_de_la_Universidad_de_Colima.svg)
-
 # Proyección de un perfil y el cálculo de su longitud en PyQgis
 *Projecting a profile and calculating its length in PyQgis*
+
+Facultad de Ingeniería Civil
+
+**3°B**
+
+Profesor:Sebastián González Zepeda
 
 **Daniela Nohemí González Preciado (1), Roberto Alejandro Navarro Obispo (2), Vanessa Belén Martínez Hernández (3)**
 
 (1) Colima - Coquimatlán Kilómetro 9, Jardines del Llano, 28400 Coquimatlán, Col., 20186496, <dgonzalez17@ucol.mx>. (2) 20172919, <rnavarro0@ucol.mx>. (3) 20177585, <vmartinez6@ucol.mx> 
-##
+
+
+## **Resumen Ejecutivo**
+En este documento se presentarán las bases para la comprensión de un código el cual trabaja mediante la aplicación de la consola de Python en el software de Qgis, hace que muestre la capa ráster del estado de Colima, de igual forma muestra el perfil con el que se trabajaron los datos, y de éste calcula la longitud.
+
+## **Abstract**
+This document will present the bases for the understanding of a code which works through the application of the Python console in the Qgis software, makes it show the raster layer of the state of Colima, in the same way it shows the profile with which The data was worked on, and from this the length was calculated.
+
 ## **1.Introducción.** 
 La nivelación de perfil tiene como objetivo determinar las cotas o elevaciones de puntos con distancias conocidas sobre un trazo para obtener el perfil del trazo.  
 
