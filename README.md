@@ -217,12 +217,20 @@ Recordemos que la nivelación geométrica o nivelación diferencial es el proced
 ## **6. Referencias**
 
 • Gamez W. (2013). Texto Básico Auto informativo de topografía general. Universidad Nacional Agraria.
+
 • García Márquez, Fernando. (1994). Curso Básico de Topografía. Árbol Editorial, S.A. de C.V. México, D.F
+
 • Reales, H. (2019). Introducción a la altimetría. Facultad de Ingenierias de la Universidad Tecnológica de Chocó.
+
 • Zamarripa, M. (2010). Apuntes de Topografía. Facultad de Estudios Superiores Acatlán
+
 • breco. (31 de 10 de 2022). abreco.com.mx.Obtenido de abreco.com.mx: https://www.abreco.com.mx/glosario_topografia.htm#:~:text=TRANSITO%3A,con%20solo%20tres%20tornillos%20nivelantes.
+
 • CAMPOS, A. O. (31 de 10 de 2022). prezi.com. Obtenido de prezi.com: https://prezi.com/jri9j2z0l1wi/mate-aplicada-atopografia/#:~:text=La%20topograf%C3%ADa%20se%20basa%2C%20en,x%2Cy%2Cz).
+
 • Eduard., L. (31 de 10 de 2022). acolita.com. Obtenido de acolita.com: https://acolita.com/evolucion-de-lastecnicas-topograficas/
+
 • Palacio, T. (31 de 10 de 2022). taringa.net. Obtenido de taringa.net: https://www.taringa.net/+ciencia_educacion/aplicaciones-de-la-trigonometria-en-latopografia_hnvbt
 • qgis. (31 de 10 de 2022). qgis.org. Obtenido de qgis.org: https://www.qgis.org/es/site/about/index.html
+
 • rmsgeoespacial. (31 de 10 de 2022). rmsgeoespacial.com. Obtenido de rmsgeoespacial.com:https://rmsgeoespacial.com/comoseutilizaungpstopografico/#:~:text=Un%20gps%20topogr%C3%A1fico%20nos%20ayuda,al%20sistema%20de%20posicionamiento%20satelital
