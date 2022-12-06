@@ -230,7 +230,6 @@ Recordemos que la nivelación geométrica o nivelación diferencial es el proced
 
 • Eduard., L. (31 de 10 de 2022). acolita.com. Obtenido de acolita.com: https://acolita.com/evolucion-de-lastecnicas-topograficas/
 
-• Palacio, T. (31 de 10 de 2022). taringa.net. Obtenido de taringa.net: https://www.taringa.net/+ciencia_educacion/aplicaciones-de-la-trigonometria-en-latopografia_hnvbt
 • qgis. (31 de 10 de 2022). qgis.org. Obtenido de qgis.org: https://www.qgis.org/es/site/about/index.html
 
 • rmsgeoespacial. (31 de 10 de 2022). rmsgeoespacial.com. Obtenido de rmsgeoespacial.com:https://rmsgeoespacial.com/comoseutilizaungpstopografico/#:~:text=Un%20gps%20topogr%C3%A1fico%20nos%20ayuda,al%20sistema%20de%20posicionamiento%20satelital
