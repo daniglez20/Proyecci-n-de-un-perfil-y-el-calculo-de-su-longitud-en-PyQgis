@@ -2,7 +2,7 @@
 # Proyección de un perfil y el cálculo de su longitud en PyQgis
 *Projecting a profile and calculating its length in PyQgis*
 
-Facultad de Ingeniería Civil
+Facultad de Ingeniería Civi
 
 **3°B**
 
