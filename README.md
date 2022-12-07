@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_de_la_Universidad_de_Colima.svg)
+![](https://portal.ucol.mx/content/micrositios/188/image/Escudo2021/1_Linea/UdeC%20Abajo_Negro.png)
 # Proyección de un perfil y el cálculo de su longitud en PyQgis
 *Projecting a profile and calculating its length in PyQgis*
 
